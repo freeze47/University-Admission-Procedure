@@ -1,3 +1,5 @@
+import os
+
 listOfApplicants = []
 Biotech = []
 Chemistry = []
@@ -8,7 +10,7 @@ departments = [Biotech, Chemistry, Engineering, Mathematics, Physics]
 references = ["Biotech", "Chemistry", "Engineering", "Mathematics", "Physics"]
 referencesForfiles = ["biotech", "chemistry", "engineering", "mathematics", "physics"]
 
-
+#os.chdir(r"Filepath")
 
 def numberOfAcceptedStudents_():
     global numbOfAcceptedStudents
